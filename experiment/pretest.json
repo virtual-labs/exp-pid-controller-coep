@@ -1,39 +1,65 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "__________ is difference between measured value and set point:",
+        "answers": {
+          "a": "Disturbance",
+          "b": "Error",
+          "c": "Set point",
+          "d": "None"
+        },
+        
+        "correctAnswer": "b",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "_______is value of process variable that is desired to be maintained:",
+        "answers": {
+          "a": "Set point",
+          "b": "Manipulated variable",
+          "c": "Disturbance",
+          "d": "None"
+        },
+        
+        "correctAnswer": "a",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      {
+        "question": "___________is changed to keep the measured variable at set point:",
+        "answers": {
+          "a": "Set point",
+          "b": "Disturbance",
+          "c": "Manipulated variable",
+          "d": "None"
+        },
+       
+        "correctAnswer": "c",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "PID controller is very important block of any_____________system:",
+        "answers": {
+          "a": "Open loop",
+          "b": "Feed back",
+          "c": "Feed forward",
+          "d": "None"
+        },
+       
+        "correctAnswer": "b",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+      {
+        "question": "____________function is not a part of PID block:",
+        "answers": {
+          "a": "Matrix",
+          "b": "Proportional",
+          "c": "Derivative",
+          "d": "None"
+        },
+        
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      }
+    ]
+  }
