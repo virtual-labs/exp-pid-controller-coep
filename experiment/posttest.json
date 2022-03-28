@@ -1,39 +1,65 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "What will be the result if the proportional gain is set too high?",
+        "answers": {
+          "a": "Stable loop",
+          "b": "Minimun offset",
+          "c": "Large offset",
+          "d": "None"
+        },
+        
+        "correctAnswer": "c",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "________ action eliminates offset:",
+        "answers": {
+          "a": "Integral or Reset",
+          "b": "Derivative or Rate",
+          "c": "Proportional",
+          "d": "None"
+        },
+        
+        "correctAnswer": "a",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      {
+        "question": "Major limitation of integral action is .....:",
+        "answers": {
+          "a": "Unstable loop",
+          "b": "Increased response time",
+          "c": "Both Unstable loop and Increased response time",
+          "d": "None"
+        },
+        
+        "correctAnswer": "c",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": " Reset wind up is observed in .... control action:",
+        "answers": {
+          "a": "Proportional + Derivative",
+          "b": "Proportional + Integral",
+          "c": "Proportional",
+          "d": "None"
+        },
+       
+        "correctAnswer": "b",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+      {
+        "question": " ......... action is not preferred when noise is present on the process that is to be controlled:",
+        "answers": {
+          "a": "Derivative",
+          "b": "Integral",
+          "c": "Proportional",
+          "d": "None"
+        },
+        
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      }
+    ]
+  }
