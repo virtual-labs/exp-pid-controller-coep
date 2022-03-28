@@ -1,0 +1,65 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "What will be the result if the proportional gain is set too high?",
+        "answers": {
+          "a": "Stable loop",
+          "b": "Minimun offset",
+          "c": "Large offset",
+          "d": "None"
+        },
+        
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "________ action eliminates offset:",
+        "answers": {
+          "a": "Integral or Reset",
+          "b": "Derivative or Rate",
+          "c": "Proportional",
+          "d": "None"
+        },
+        
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Major limitation of integral action is .....:",
+        "answers": {
+          "a": "Unstable loop",
+          "b": "Increased response time",
+          "c": "Both Unstable loop and Increased response time",
+          "d": "None"
+        },
+        
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": " Reset wind up is observed in .... control action:",
+        "answers": {
+          "a": "Proportional + Derivative",
+          "b": "Proportional + Integral",
+          "c": "Proportional",
+          "d": "None"
+        },
+       
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": " ......... action is not preferred when noise is present on the process that is to be controlled:",
+        "answers": {
+          "a": "Derivative",
+          "b": "Integral",
+          "c": "Proportional",
+          "d": "None"
+        },
+        
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      }
+    ]
+  }
