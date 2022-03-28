@@ -1,6 +1,6 @@
 Programmable logic controller were originally designed to implement discrete or logical control. But it has limited capability of handling analog input and outputs as well as analog control. PID control is available in PLC as a function. The theory behind PID control is discussed here.
 **In this experiment students are expected to study all features of the PID block available in PLC, in simulation mode without considering any process application.**
-As the name suggests this strategy is preferred for on –off type applications. This is a simplest form of control. Chattering of contacts for final control element is major problem but it can be avoided by addition of dead zone. Precise control is not possible due to addition of dead zone.\
+As the name suggests this strategy is preferred for on - off type applications. This is a simplest form of control. Chattering of contacts for final control element is major problem but it can be avoided by addition of dead zone. Precise control is not possible due to addition of dead zone.\
 Mostly all domestic applications as Water Geyser, Electric iron, Electric Ovens are controlled using on-off control strategy.
 
 **PID: Continuous Control**
